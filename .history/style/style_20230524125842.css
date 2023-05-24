@@ -124,6 +124,8 @@ body {
 
 .apresentacao_imagem{
     width: 50%;
+
+
 }
 
 
@@ -137,23 +139,10 @@ body {
     font-weight: 400;
 }
 
-@media (max-width: 1200px) {
-    .cabecalho{
-        padding: 10%;
-    }
 
-.cabecalho_menu{
-    justify-content: center;
-
-}
- 
-.apresentacao {
+@media screen (max-widht: 1200px) {
+    .apresentacao{
         flex-direction: column-reverse;
-        padding: 5%;
-    }
-
-    .apresentacao_conteudo{
-        widht: auto;
     }
     
 }

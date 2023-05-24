@@ -51,8 +51,6 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 5% 15%;
-    gap: 82px;
-    
 }
 
 
@@ -99,12 +97,12 @@ body {
 }
 
 
-.apresentacao-links-navegacao{
+.apresentacao-links-link{
     display: flex;
     justify-content: center;
     gap:16px;
     border: 2px solid var(--cor-terciaria);
-    width: 50%;
+    width: 378px;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -124,6 +122,8 @@ body {
 
 .apresentacao_imagem{
     width: 50%;
+
+
 }
 
 
@@ -137,23 +137,8 @@ body {
     font-weight: 400;
 }
 
-@media (max-width: 1200px) {
-    .cabecalho{
-        padding: 10%;
-    }
 
-.cabecalho_menu{
-    justify-content: center;
+   
 
-}
- 
-.apresentacao {
-        flex-direction: column-reverse;
-        padding: 5%;
-    }
 
-    .apresentacao_conteudo{
-        widht: auto;
-    }
-    
-}
+

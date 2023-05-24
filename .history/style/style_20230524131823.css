@@ -143,17 +143,12 @@ body {
     }
 
 .cabecalho_menu{
-    justify-content: center;
+
 
 }
  
 .apresentacao {
         flex-direction: column-reverse;
-        padding: 5%;
-    }
-
-    .apresentacao_conteudo{
-        widht: auto;
     }
     
 }
